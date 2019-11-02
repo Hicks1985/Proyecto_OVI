@@ -1,0 +1,114 @@
+#contenido {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}
+
+body{
+    background-color: blue;
+
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin:  25px;
+    text-align: right;
+}
+
+h2{
+    font-size: 37px;
+    color: yellow;
+    margin:  25px;
+   
+}
+
+h3{
+    font-size: 40px;
+    color: yellow;
+    margin:  25px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+
+h4{
+    font-size: 40px;
+    color: yellow;
+    margin:  25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h5{
+    font-size: 25px;
+    color: yellow;
+    margin:  25px;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+
+nav{
+    background-color: orange;
+    width: 1000px;
+    height: 60px;
+}
+
+ul{
+    position: relative;
+    margin: auto;
+    margin-left: 100;
+    color: white;
+}
+
+nav ul li{
+    list-style-type: none;
+    float:left;
+    padding: 5px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+section{
+    width: 650px;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+.menu:active{text-decoration: none; color: white;}
+.menu:hover{text-decoration: none; color: red;}
+.menu:link{text-decoration: none; color: white;}
+.menu:focus{text-decoration: none; color: white;}
+.menu:visited{text-decoration: none; color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
