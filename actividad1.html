@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Seguridad Informática</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/wordfind.js"></script> 
+    <script type="text/javascript" src="js/wordfindgame.js"></script>
+</head>
+<body>
+	
+	<nav>
+		<ul>
+			
+			<li><a href="#">Actividades <span class="fa fa-angle-down"></a>
+				<ul>
+					<li><a href="actividad1.html">Actividad 1</a></li>
+					<li><a href="Preguntas GITHUB.html">Preguntas GITHUB</a></li>
+					
+				</ul>
+			</li>
+			
+		</ul>
+	</nav>
+	<section id="contenedor">
+		<section id="principal">
+			<h2>Sopa de letras</h2>
+			<article>
+				<div id="contenedor">
+
+    				<div id='Palabras'></div>
+    				
+    				<div id='juego'></div>
+
+    				<div><button id='solve'>Resolver el juego</button></div>
+					<p></p>
+    				<div><button id="renew">Recargar juego</button> 
+    				</div>
+
+    			</div>
+
+    			  <script>
+    var words = ['CYBERDELINCUENTE','VIRUS','HACKER','ATAQUES','SEGURIDAD','CONTRASEÑA','MALWARE','TECNOLOGIA','ANTIVIRUS'];
+    var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras'); 
+        
+    var puzzle = wordfind.newPuzzle(words,{height: 10, width:10, fillBlanks: false});
+    wordfind.print(puzzle);   
+        
+    $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+
+    $('#renew').click( function() {location.reload();});
+        
+    </script>
+			</article>
+		
+	
+</body>
+</html>
+
+
+
+
+
+
