@@ -6,10 +6,13 @@
     position: relative;
 }
 
-body{
-    background-color: blue;
 
+
+body{
+    background-color: CORNFLOWERBLUE;
 }
+
+
 
 h1{
     font-size: 50px;
@@ -22,22 +25,23 @@ h2{
     font-size: 37px;
     color: yellow;
     margin:  25px;
+    text-align: center;
    
 }
 
 h3{
-    font-size: 40px;
+    font-size: 32px;
     color: yellow;
     margin:  25px;
-    text-align: center;
-    margin-top: 50px;
+    text-align: left;
+  
 
 }
 
 
 
 h4{
-    font-size: 40px;
+    font-size: 30px;
     color: yellow;
     margin:  25px;
     text-align: center;
@@ -51,52 +55,144 @@ h5{
     margin-top: 50px;
 }
 
+h6{
+    font-size: 50px;
+    color: yellow;
+    margin:  25px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+h6{
+    font-size: 20px;
+    color: white;
+    margin:  25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h7{
+    font-size: 40px;
+    color: yellow;
+    margin:  10px;
+    margin-top: 30px;
+    text-align:left;
+}
+
+
+
+
+
 p{
     font-size: 30px;
     color: white;
     text-align: left;
     font-family: sans-serif;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-
-nav{
-    background-color: orange;
-    width: 1000px;
-    height: 60px;
-}
-
-ul{
-    position: relative;
-    margin: auto;
-    margin-left: 100;
-    color: white;
-}
-
-nav ul li{
-    list-style-type: none;
-    float:left;
-    padding: 5px;
-    margin: 10px;
+ br{
     font-size: 30px;
-}
+    color: yellow;
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 30px;
+ }
+ 
+                                                      
+                       
+                        
+
+
+
+
+
+
+
 
 section{
     width: 650px;
 }
 
+
+
 img{
     height: 200px;
     width: auto;
-    margin-top: 5px;
+    margin-top: 100px;
+    img-align: left;
+   
 }
 
 
-.menu:active{text-decoration: none; color: white;}
-.menu:hover{text-decoration: none; color: red;}
-.menu:link{text-decoration: none; color: white;}
-.menu:focus{text-decoration: none; color: white;}
-.menu:visited{text-decoration: none; color: white;}
+
+
+
+
+
+aside {
+    width: 50%;
+    padding-right: .5px;
+    margin-right: .5px;
+    float: right;
+    align-items: right;
+    box-shadow: inset 5000px 0 5000px -5000px #FFFF00;    
+}
+
+.navegacion{
+    width: 1000px;
+    margin:30px auto;
+    background: orange;
+}
+   
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.menu li a:hover{
+    color: red;
+    transition: all .3s;
+}
+
+/* Submenu*/
+.submenu{
+     position: absolute;
+     background: orange;
+     width: 120%;
+     visibility: hidden;
+     opacity: 0;
+     transition: opacity 1.5s;
+}
+   
+.submenu li a{    
+    display: block;
+    padding: 15 px;
+    color: white
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
 
 
 
@@ -109,6 +205,14 @@ img{
 
 
 
+
+
+footer{
+    width: 1000px;
+    margin:auto;
+    background-color: orange;
+    color:white;
+}
 
 
 
